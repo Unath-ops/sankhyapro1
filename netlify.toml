@@ -1,0 +1,4 @@
+[build]
+  base = "sankhya ready"
+  command = "cd build-template/src/frontend && pnpm install --frozen-lockfile && pnpm run build"
+  publish = "build-template/src/frontend/dist"
